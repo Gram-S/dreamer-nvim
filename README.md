@@ -34,7 +34,6 @@ While Dorothy's Neovim does not aim to emulate a full IDE, it includes a few plu
 | Render Markdown / Close Markdown | Enter | Normal |
 
 ## Bugs
-- Barbar fights with Oil on how Oil renders buffers/tabs and Barbar will often think there's two buffers when closing something and 'flash' barbar. Solution is probably to make barbar only conditionally active when :tabnew is called.
 - I'd also like to implament toggleterm lazy movement such that it inherits the directory of whatever buffer it's open in
 - Timestamps on file history showing when they were last edited
 - I think visual multi's config is written kinda bad
