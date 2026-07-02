@@ -1,9 +1,9 @@
-# Dorothy's Neovim Documentation
+# Dreamer Neovim Documentation
 
 ## Overview
-Welcome to Dorothy's Neovim configuration! 
+Welcome to Dreamer Neovim configuration! 
 
-While Dorothy's Neovim does not aim to emulate a full IDE, it includes a few plugins and hotkey mappings to make working with code easier. Dorothy's Neovim includes no extra configuration options because it is already perfect and thus it is futile to make any changes to it. 
+While Dreamer Neovim does not aim to emulate a full IDE, it includes a few plugins and hotkey mappings to make working with code easier. Dreamer Neovim includes no extra configuration options because it is already perfect and thus tools to grant greater control of mutability is superfluous. 
 
 ## Plugins
 - [Oil File Manager](https://github.com/stevearc/oil.nvim) 
