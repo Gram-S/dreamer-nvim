@@ -13,6 +13,7 @@ While Dorothy's Neovim does not aim to emulate a full IDE, it includes a few plu
 - [Barbar Tabline](https://github.com/romgrk/barbar.nvim) 
 - [Telescope](https://github.com/nvim-telescope/telescope.nvim)
 - [Dashboard](https://github.com/mhinz/vim-startify/#installation-and-documentation)
+- [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 
 ## Hotkeys
 | Action | Hotkey | Mode |
@@ -38,5 +39,3 @@ While Dorothy's Neovim does not aim to emulate a full IDE, it includes a few plu
 - Timestamps on file history showing when they were last edited
 - I think visual multi's config is written kinda bad
 - Figure out how to open files by path -> add to dashboard 
-- Bracket highlights make it hard to view the cursor
-- Need files names (always tab mode?)
