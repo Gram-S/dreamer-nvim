@@ -36,5 +36,7 @@ While Dreamer Neovim does not aim to emulate a full IDE, it includes a few plugi
 ## Bugs
 - I'd also like to implament toggleterm lazy movement such that it inherits the directory of whatever buffer it's open in
 - Timestamps on file history showing when they were last edited
-- I think visual multi's config is written kinda bad
+- Multiline Editor docs
+- Just make a cheat sheet
 - Figure out how to open files by path -> add to dashboard 
+

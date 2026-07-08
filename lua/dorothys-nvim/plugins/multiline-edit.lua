@@ -1,9 +1,15 @@
 return {
-  'mg979/vim-visual-multi',
-  config = function()
-    vim.keymap.set('i', '<S-Right>', '<C-o>e', { noremap = true, remap = false })
-    vim.keymap.set('i', '<S-Left>', '<C-o>b', { noremap = true, remap = false })
-    vim.keymap.set('n', '<S-Right>', 'e', { noremap = true, remap = false })
-    vim.keymap.set('n', '<S-Left>', 'b', { noremap = true, remap = false })
-  end,
+  "amartincodes/multilinea",
+  event = "BufReadPost",
+  opts = {
+	 keymaps = {
+	   add_cursor_next = "<C-Right>", -- Add cursor at next match
+      add_cursor_below = "<C-Down>", -- Add cursor below
+      add_cursor_above = "<C-Up>",   -- Add cursor above
+	 },
+	 highlights = {
+		primary = "Visual",
+		secondary = "Visual",
+    },
+  },
 }

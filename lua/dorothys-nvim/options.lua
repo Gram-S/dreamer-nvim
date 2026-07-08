@@ -2,10 +2,11 @@ vim.opt.number = true -- Show line number
 vim.opt.cursorline = true -- Show cursor line
 vim.opt.linebreak = true
 vim.opt.spell = true
+vim.g.mapleader = 'l'-- Change leader key. Required otherwise the visual keybind being space causes it to conflict (space is default leader).  
 -- I hate relative line numbers 
-vim.opt.tabstop = 3 -- Tab is 4 spaces
-vim.opt.shiftwidth = 3 -- Indentition size
-vim.opt.softtabstop = 3 -- idk what this does
+vim.opt.tabstop = 4 -- Tab is 4 spaces
+vim.opt.shiftwidth = 4 -- Indentition size
+vim.opt.softtabstop = 4 -- idk what this does
 vim.opt.laststatus = 0 -- Turn off the status bar
 vim.cmd('highlight Visual guibg=#0065d2 guifg=#ffffff') -- Standard Highlighting. Highlight, Text color
 vim.cmd('highlight MatchParen guibg=#6153CC guifg=#ffffff') -- Kinda required for matching embolding for rainbow delimiters
