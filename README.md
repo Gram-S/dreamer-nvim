@@ -14,6 +14,7 @@ While Dreamer Neovim does not aim to emulate a full IDE, it includes a few plugi
 - [Telescope](https://github.com/nvim-telescope/telescope.nvim)
 - [Dashboard](https://github.com/mhinz/vim-startify/#installation-and-documentation)
 - [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [Multi Cursor](https://github.com/brenton-leighton/multiple-cursors.nvim)
 
 ## Hotkeys
 | Action | Hotkey | Mode |
