@@ -2,7 +2,6 @@ vim.opt.number = true -- Show line number
 vim.opt.cursorline = true -- Show cursor line
 vim.opt.linebreak = true
 vim.opt.spell = true
-vim.g.mapleader = 'l'-- Change leader key. Required otherwise the visual keybind being space causes it to conflict (space is default leader).  
 -- I hate relative line numbers 
 vim.opt.tabstop = 4 -- Tab is 4 spaces
 vim.opt.shiftwidth = 4 -- Indentition size
