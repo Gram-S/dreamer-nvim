@@ -1,4 +1,4 @@
-vim.g.mapleader = "l" -- Appears to conflict with the multiline plugin. 
+-- vim.g.mapleader = "l" -- Appears to conflict with the multiline plugin. 
 vim.opt.number = true -- Show line number
 vim.opt.cursorline = true -- Show cursor line
 vim.opt.linebreak = true

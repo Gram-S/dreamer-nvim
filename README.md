@@ -40,4 +40,4 @@ While Dreamer Neovim does not aim to emulate a full IDE, it includes a few plugi
 - Multiline Editor docs
 - Just make a cheat sheet
 - Figure out how to open files by path -> add to dashboard 
-- Multiline plugin? (I think) causes neovim to wait whenever the space key is pressed due to some keybinding settings. May be fixed by overwriting such keybinds. 
+- (I think) causes neovim to wait whenever the space key is pressed due to some keybinding settings. May be fixed by overwriting such keybinds. 
