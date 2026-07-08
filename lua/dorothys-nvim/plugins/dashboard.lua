@@ -45,13 +45,13 @@ return {
             icon = '󰈙  ',
             desc = 'Documentation',
             key = '?',
-            action = 'edit .config/nvim/README.md | LivePreview start'
+            action = '~/edit .config/nvim/README.md | LivePreview start'
           },
 			 {
             icon = '  ',
             desc = 'Config',
             key = 'c',
-            action = 'Oil .config/nvim'
+            action = 'Oil ~/.config/nvim'
           },
           {
             icon = '  ',
