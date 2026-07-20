@@ -20,7 +20,7 @@ return {
           {
             icon = '  ',
             desc = 'File Explorer',
-            key = 'o',
+            key = '-',
             action = 'Oil'
           },
 		  {
