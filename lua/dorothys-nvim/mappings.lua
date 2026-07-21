@@ -13,6 +13,7 @@ vim.keymap.set("v", "<Space>", "V", { nowait = true }) -- Line on double
 vim.keymap.set({"n", "i", "v"}, "<S-Up>", "10k")
 vim.keymap.set({"n", "i", "v"}, "<S-Down>", "10j")
 
+vim.api.nvim_set_keymap('n', ';', ':', { noremap = true })
 -- Shift move to front/end of word
 -- vim.keymap.set('i', '<S-Right>', '<C-o>w', { noremap = true })
 -- vim.keymap.set('i', '<S-Left>', '<C-o>b', { noremap = true })
