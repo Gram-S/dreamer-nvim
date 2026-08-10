@@ -24,6 +24,12 @@ return {
             action = 'Oil'
           },
 		  {
+			icon = '󰐕  ',
+			desc = 'New File',
+			key = '+',
+			action = 'NewFile'
+		  },
+		  {
             icon = '  ',
             desc = 'File History',
             key = 'h',
