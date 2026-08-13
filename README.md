@@ -3,7 +3,7 @@
 ## Overview
 Welcome to Dreamer Neovim configuration! 
 
-While Dreamer Neovim does not aim to emulate a full IDE, it includes a few plugins and hotkey mappings to make working with code easier. Dreamer Neovim includes no extra configuration options because it is already perfect and thus tools to grant greater control of mutability is superfluous. 
+While Dreamer does not aim to emulate a full IDE, it includes a few plugins and hotkey mappings to make working with code easier. Dreamer includes no extra configuration options because it is already perfect and thus greater control of its mutability is superfluous. 
 
 ## Plugins
 - [Oil File Manager](https://github.com/stevearc/oil.nvim) 
