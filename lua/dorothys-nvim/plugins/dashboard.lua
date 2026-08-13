@@ -31,7 +31,7 @@ return {
 		  },
 		  {
             icon = '  ',
-            desc = 'File History',
+            desc = 'Recent Files',
             key = 'h',
             action = 'Telescope oldfiles'
           },
