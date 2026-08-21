@@ -13,3 +13,11 @@ vim.cmd('highlight MatchParen guibg=#6153CC guifg=#ffffff') -- Kinda required fo
 vim.opt.ruler = false -- Get rid of column numbers 
 vim.opt.guicursor = "n-v-c-sm:block-NormalCursor,i-ci-ve:ver25,r-cr:hor20,o:hor50" -- Change normal mode cursor color
 vim.api.nvim_set_hl(0, "NormalCursor", { bg = "#6153CC" })
+
+-- Disable automatic comment insertion on newline
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "*",
+  callback = function()
+    vim.opt_local.formatoptions:remove({ "r", "o" })
+  end,
+})
